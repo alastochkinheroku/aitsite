@@ -33,16 +33,16 @@
 						<div class="gn-scroller">
 							<ul class="gn-menu">
 								<li class="gn-search-item">
-									<input placeholder="Поиск" type="search" class="gn-search">
+									<input placeholder="Search" type="search" class="gn-search">
 									<a class="gn-icon gn-icon-search"><span>Search</span></a>
 								</li>
 								<li>
-									<a href="#about" class="gn-icon gn-icon-download">О проекте</a>
+									<a href="#about" class="gn-icon gn-icon-download">About</a>
 								</li>
-								<li><a href="#service" class="gn-icon gn-icon-cog">Возможности</a></li>
-								<li><a href="#works" class="gn-icon gn-icon-help">Скриншоты</a></li>
+								<li><a href="#service" class="gn-icon gn-icon-cog">Service</a></li>
+								<li><a href="#works" class="gn-icon gn-icon-help">Works</a></li>
 								<li>
-									<a href="#contact" class="gn-icon gn-icon-archive">Связаться</a>
+									<a href="#contact" class="gn-icon gn-icon-archive">Contact</a>
 								</li>
 							</ul>
 						</div><!-- /gn-scroller -->
@@ -61,19 +61,15 @@
 	<!-- Section: intro -->
     <section id="intro" class="intro">
 		<div class="slogan">
-			<h1>Интеллектуальная поддержка обучения</h1>
-			<p>с использованием современных технологий</p>
-			<a href="#about" class="btn btn-skin scroll">Узнать больше</a>
+			<h1>This is Ninestars</h1>
+			<p>make awesome stuff with Bootstrap framework</p>
+			<a href="#about" class="btn btn-skin scroll">Learn more</a>
 		</div>	
     </section>
 	<!-- /Section: intro -->
 
 	<!-- Section: about -->
-	<section id="about" class="home-section text-center">
 	<!-- Добавить сведения о продукте -->
-	<h2>Описание проекта</h2>
-	<p>Проблема интеллектуальных систем в обучении стоит давно</p>
-	</section>
 	<!-- /Section: about -->
 
 	
@@ -255,11 +251,21 @@
                 </form>
             </div>
 			
-			<div class="widget-contact row">				
+			<div class="widget-contact row">
+				 <div class="col-lg-6">
+				<address>
+				  <strong>Ninestars Ltd.</strong><br>
+				  Big Villa 334 Awesome, Beautiful Suite 1200<br>
+				  San Francisco, CA 94107<br>
+				  <abbr title="Phone">P:</abbr> (123) 456-7890
+				</address>
+				</div>
+				
 				<div class="col-lg-6">
 				<address>
 				  <strong>Email</strong><br>
-				  <a href="mailto:#">aiteacher@inbox.ru</a>
+				  <a href="mailto:#">email.name@example.com</a><br />
+				   <a href="mailto:#">name.name@example.com</a>
 				</address>	
 			
 				</div>
@@ -271,6 +277,17 @@
 		</div>
 	</section>
 	<!-- /Section: contact -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+		
+					<p>Copyright &copy; 2014 Ninestars - by <a href="http://bootstraptaste.com">Bootstraptaste</a></p>
+				</div>
+			</div>	
+		</div>
+	</footer>
 
     <!-- Core JavaScript Files -->
     <script src="js/jquery.min.js"></script>
